@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <style>
 
 /* ============ TOKENS ============ */
@@ -319,7 +320,7 @@ nav.main-nav a:hover{opacity:1;}
 }
 .store-btn:hover{transform:translateY(-3px); box-shadow:0 14px 28px -10px rgba(18,32,26,.5);}
 .store-btn .icon{width:22px; height:22px; flex-shrink:0;}
-.store-btn .txt{line-height:1.15;}
+.store-btn .txt{line-height:2.10;font-size: large;}
 .store-btn .txt .small{display:block; font-size:10px; opacity:.75; font-weight:500;}
 .store-btn .txt .big{display:block; font-size:15.5px; font-weight:700; font-family:var(--display); letter-spacing:.01em;}
 
@@ -862,13 +863,10 @@ footer{padding:56px 0 40px;}
         <h2 class="reveal">Le prochain sentier vous attend.</h2>
         <p class="reveal">Téléchargez MadaTravel avant le départ et gardez votre circuit, votre position et votre équipe au même endroit, du premier au dernier jour.</p>
         <div class="store-row reveal">
-          <a href="#" class="store-btn">
-            <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M16.365 1.43c0 1.14-.417 2.19-1.24 3.06-.99 1.05-2.19 1.66-3.51 1.56-.13-1.12.42-2.28 1.2-3.09.83-.87 2.25-1.53 3.42-1.6.03.02.09.05.13.07zM20.5 17.34c-.53 1.22-.79 1.77-1.48 2.85-.96 1.5-2.32 3.37-4 3.39-1.49.02-1.87-.97-3.89-.96-2.02.01-2.44.98-3.93.96-1.68-.02-2.97-1.71-3.93-3.2-2.7-4.16-2.98-9.04-1.32-11.64 1.18-1.86 3.03-2.94 4.77-2.94 1.77 0 2.88 1 4.34 1 1.42 0 2.28-1 4.34-1 1.55 0 3.19.85 4.36 2.31-3.83 2.1-3.21 7.57.74 9.23z"/></svg>
-            <span class="txt"><span class="small">Télécharger sur l'</span><span class="big">App Store</span></span>
-          </a>
-          <a href="#" class="store-btn">
-            <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M3.6 2.2c-.35.35-.55.86-.55 1.5v16.6c0 .64.2 1.15.55 1.5l.1.08L13 13.6v-.2L3.7 2.12l-.1.08z"/><path d="M16.2 16.8l-3.2-3.2v-.2l3.2-3.2 3.7 2.1c1.05.6 1.05 1.58 0 2.18l-3.7 2.1z" opacity=".7"/><path d="M13 13.4l3.2 3.2-9.5 5.4c-.35.2-.75.17-1.1-.06l7.4-8.54z"/><path d="M13 12.6L5.6 4.06c.35-.23.75-.26 1.1-.06l9.5 5.4-3.2 3.2z" opacity=".85"/></svg>
-            <span class="txt"><span class="small">Disponible sur</span><span class="big">Google Play</span></span>
+          <a href="downloads/madatravel.apk" class="store-btn" download>
+            <i class="fab fa-android"></i>
+            <span class="txt">Télécharger APK</span>
+            <i class="fas fa-download"></i>
           </a>
         </div>
       </div>
